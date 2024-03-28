@@ -11,5 +11,5 @@ jobs:
       - uses: actions/checkout@v3
       - name: Run the program
         env:
-          ENVIRONMENT: staging
+          ENVIRONMENT: staging1
         run: python main.py
